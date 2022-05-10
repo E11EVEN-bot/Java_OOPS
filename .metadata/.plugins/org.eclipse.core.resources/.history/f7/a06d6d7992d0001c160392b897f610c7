@@ -1,0 +1,19 @@
+package oops;
+
+public class Student {
+
+	int sid;
+	String sname;
+	char grade;
+	
+	void getValues(int a, String b, char c) {
+		sid = a;
+		sname=b;
+		grade=c;
+	}
+	
+	void display() {
+		System.out.print(sid  + " " + sname + " " + grade);
+	}
+	
+}

@@ -1,0 +1,22 @@
+package oops;
+
+public class Employee {
+
+	int e_id;
+	String e_name;
+	int dept_no;
+	String job;
+	
+	void display() {
+		System.out.println(e_id);
+		System.out.println(e_name);
+		System.out.println(dept_no);
+		System.out.println(job);
+		
+		
+		public static void main(String[] args) {
+			
+		}
+		
+	}
+}

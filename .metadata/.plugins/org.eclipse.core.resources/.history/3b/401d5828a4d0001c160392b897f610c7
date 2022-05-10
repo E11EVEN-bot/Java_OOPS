@@ -1,0 +1,30 @@
+package oops;
+
+public class Assignment1 {
+
+public class Student{
+	int sid,sub1, sub2, sub3;
+	String Sname;
+	
+	void getStuData(int a, String b) {
+		sid = a;
+		Sname = b;
+	}
+	
+	void getStuMarks(int a, int b, int c) {
+		sub1 = a;
+		sub2 = b;
+		sub3 = c;
+}
+	
+	void totalMarks() {
+		System.out.println(" Total Marks = " + (sub1+sub2+sub3));
+	}
+	
+	public static void main(String[] args) {
+		
+		Student s1 = new Student();
+		
+	}
+
+}}

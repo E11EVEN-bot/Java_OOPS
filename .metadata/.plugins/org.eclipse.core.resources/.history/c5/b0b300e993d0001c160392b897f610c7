@@ -1,0 +1,21 @@
+package oops;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		
+		Student stud1 = new Student(); // Stud1 -> Object Reference Variable
+		
+//		Approach 1
+		stud1.sid=10;
+		stud1.sname="Hamza";
+		stud1.grade='A';
+		stud1.display();
+		
+		Student stud2 = new Student();
+//		Approach 2 - Using Method
+		stud2.getValues(20, "Hamza", 'B');
+		stud2.display();
+	}
+
+}

@@ -1,0 +1,31 @@
+package oops;
+
+public class Constructor {
+	
+	int x,y;
+	
+	Constructor(){
+		x = 100; y=200;
+		System.out.println(x+y);
+	}
+	
+	Constructor(int a, int b){
+		System.out.println(a+b);
+	}
+	
+	Constructor(String a, int b){
+		System.out.println(a + " " +b);
+	}
+	
+
+	public static void main(String[] args) {
+		
+		Constructor c1 = new Constructor();
+		Constructor c2 = new Constructor(10,20);
+		Constructor c3 = new Constructor("Hamza", 7);
+	
+		
+
+	}
+
+}
