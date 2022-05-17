@@ -1,0 +1,13 @@
+package oops;
+
+public class FinalKeyword {
+	int speed=100;
+	
+	public static void main(String[] args) {
+		FinalKeyword object = new FinalKeyword();
+		object.speed =10;
+		System.out.println(object.speed);
+		
+	}
+
+}

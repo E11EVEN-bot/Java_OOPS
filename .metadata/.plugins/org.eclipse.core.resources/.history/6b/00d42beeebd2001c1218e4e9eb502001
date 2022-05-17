@@ -1,0 +1,28 @@
+package oops;
+
+public class ThisKeyword {
+	
+	int a, b;
+	
+	void add(int a, int b) {
+		
+		this.a=a;
+		this.b=b;
+	}
+	
+	void display() {
+		System.out.println(a + "\n" + b);
+		System.out.println("Result =" + (a+b));
+	}
+	
+//	ThisKeyword(){
+//		
+//	}
+	
+	public static void main(String[] args) {
+		ThisKeyword th = new ThisKeyword();
+		th.add(10,10);
+		th.display();
+	}
+	
+}

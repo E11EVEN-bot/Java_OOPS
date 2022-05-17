@@ -1,0 +1,28 @@
+package oops;
+
+class Color{
+	String color = "White";
+	
+	void className() {
+		System.out.println(getClass());
+	}
+}
+
+class thing extends Color{
+	String color = "Red";
+	
+	void className() {
+		System.out.println(getClass());
+		System.out.println(super.getClass());
+	}
+}
+
+
+public class SuperKeyword {
+
+	public static void main(String[] args) {
+		thing obj = new thing();
+		System.out.println(obj.color);
+		obj.className();
+	}
+}

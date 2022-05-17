@@ -1,0 +1,10 @@
+package oops.AccessModifiers;
+
+public class Protected {
+	
+	int a = 10;
+	void m1() {
+		System.out.println(a);
+	}
+	
+}

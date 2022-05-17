@@ -1,0 +1,25 @@
+package oops.Inheritance;
+
+class One{
+	int a=10;
+	void display(int a) {
+		System.out.printf("no :", a);
+	}
+}
+class Two extends One{
+	int b=20;
+	int sum(int a,int b) {
+		return a+b;
+	}
+}
+
+
+
+public class SingleLevelInheritance {
+
+	public static void main(String[] args) {
+		Two obj2 = new Two();
+		display(10);  
+	}
+
+}

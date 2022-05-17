@@ -1,0 +1,29 @@
+package oops.Interface;
+
+interface A{
+	int a=10;
+	int b=20;
+	void sum();
+}
+interface B{
+	int x=30;
+	int y=40;
+	void multiply();
+}
+public class Assignment2 implements A,B{
+	
+	public void sum() {
+		System.out.println(a+b);
+	}
+	public void multiply() {
+		System.out.println(x+y);
+	}
+	
+	public static void main(String[] args) {
+		
+		Assignment2 obj = new Assignment2();
+			obj.sum();
+			obj.multiply();
+	}
+
+}

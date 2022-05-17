@@ -1,0 +1,36 @@
+package oops.Inheritance;
+
+class one{
+	int a=10;
+	void Display(int x) {
+		System.out.println(x);
+	}
+}
+class two extends one{
+	int b=20;
+	int multiply(int a, int b) {
+		return a*b;
+	}
+}
+class three extends two{
+	int c=30;
+	int sum(int a, int b, int c) {
+		return a+b+c;
+	}
+}
+
+
+public class MultiLevel {
+
+	public static void main(String[] args) {
+		one obj1 = new one();
+		two obj2 = new two();
+		three obj3 = new three();
+		
+		int result = obj3.sum(obj1.a,obj2.b,obj3.c);
+		obj3.Display(result);
+		obj1.Display(obj3.multiply(result, result));
+
+	}
+
+}

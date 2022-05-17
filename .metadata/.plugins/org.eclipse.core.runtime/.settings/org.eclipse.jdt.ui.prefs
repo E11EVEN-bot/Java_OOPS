@@ -1,3 +1,4 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="oops.FinalKeyword"><rhs name\="oops.FinalKeyword"/></lhs><lhs name\="oops.Inheritance.B"><rhs name\="oops.Inheritance.HybridInheritance"/></lhs><lhs name\="oops.Inheritance.A"><rhs name\="oops.Inheritance.HybridInheritance"/></lhs><lhs name\="oops.Inheritance.C"><rhs name\="oops.Inheritance.HybridInheritance"/></lhs><lhs name\="oops.Inheritance.HybridInheritance"><rhs name\="oops.Inheritance.HybridInheritance"/></lhs><lhs name\="oops.AccessModifiers.Protected"><rhs name\="oops.AccessModifiers.Protected"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

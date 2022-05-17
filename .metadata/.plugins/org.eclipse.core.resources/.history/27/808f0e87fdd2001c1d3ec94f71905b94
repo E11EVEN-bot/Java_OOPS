@@ -1,0 +1,15 @@
+package oops;
+
+public class Static {
+		
+	static void method1() {
+		System.out.println("Static Method");
+	}
+	
+	void method2() {
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,15 @@
+package oops;
+
+public class CallByReference {
+	int x;
+	
+	void addition(int a) {
+		
+	}
+
+	public static void main(String[] args) {
+	
+		
+		
+	}
+}

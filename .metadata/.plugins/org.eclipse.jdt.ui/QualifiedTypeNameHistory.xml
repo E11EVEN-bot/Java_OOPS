@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="oops.Constructor"/>
+    <fullyQualifiedTypeName name="oops.CallByReference"/>
+    <fullyQualifiedTypeName name="oops.Inheritance.Child1"/>
+    <fullyQualifiedTypeName name="oops.MethodOverriding.SBI"/>
+    <fullyQualifiedTypeName name="oops.FinalKeyword"/>
+    <fullyQualifiedTypeName name="oops.Inheritance.MultipleInheritance"/>
+    <fullyQualifiedTypeName name="oops.Inheritance.HybridInheritance"/>
+    <fullyQualifiedTypeName name="oops.AccessModifiers._default"/>
+    <fullyQualifiedTypeName name="oops.AccessModifiers.Protected"/>
+    <fullyQualifiedTypeName name="oops.Interface.Assignment2"/>
+</qualifiedTypeNameHistroy>
